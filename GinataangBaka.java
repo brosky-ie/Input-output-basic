@@ -12,8 +12,8 @@ public class GinataangBaka {
         System.out.print("Enter your favorite color: ");
         String color = sc.next();
 
-        System.out.println("Your name is: " + name);
-        System.out.println("Your age is: " + age);
+        System.out.println("Hello, " + name + "!");
+        System.out.println("Your age in 10 years will be: " + (age + 10));
         System.out.println("Your favorite color is: " + color);
     }
 }
